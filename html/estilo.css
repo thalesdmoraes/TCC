@@ -1,0 +1,187 @@
+﻿html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
+	margin: 0;
+	padding: 0; 
+	border:none; 
+	outline:none;
+	list-style-type:none;
+}
+
+body{
+	font-family: Arial;
+	color: #000;
+	background: #76C2AF;
+	font-size: 14px;
+}
+
+#geral{
+	text-align: center;
+	height:	100%;
+	margin:0 auto;
+	background:#fff;
+}
+
+#geral #topo{
+	height: 140px;
+	background-image:url(imagens/site/backgroundtopo.png);				
+}
+
+#geral #topo h1{
+	font-family:Arial;
+	color:#fff;
+	font-weight:900;
+	font-size:50px;
+	display:inline;
+	margin:0 0 0 0;
+	position:relative;
+	top:-30px;
+	right:-200px;
+}
+
+#geral #topo a {
+	text-decoration:none;
+	border:none;
+	outline:none;
+}
+
+#geral #topo p{
+	margin:0;
+	color:#fff;
+	display:inline;
+	position:none;
+	top:-5px;
+	left:-450px;
+	font-weight:800;
+	font-size:18px;
+}
+
+#geral  #topo a img{
+	height: 100px;
+	vertical-align: center;
+	margin: 15px 200px;
+	float: left;
+}
+
+#geral  #topo a img:hover{
+	height:90px;
+	margin: 20px 205px;
+}
+
+#geral #topo #texto{
+	float: right;
+	text-align: right;
+	margin: 40px 225px 0 0;
+	display: inline;
+	position: relative;
+}
+
+#geral #menu{
+	/*height:45px;*/
+	background:#76C2AF;
+	/*border-top:3px solid #000;
+	border-bottom:3px solid #000;*/
+		
+}
+
+#geral #menu ul{
+	list-style:none;	
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#geral #menu ul li{
+	display:inline;
+	margin:0;
+}
+
+#geral #menu ul li a{
+	text-decoration:none;
+	padding:15px 55px 15px 55px;
+	font-size:18px;
+	position: center;
+	color:#000;
+}
+
+#geral #menu ul li a:hover{
+	background:#FFFFFF;
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#geral #centro{
+	width: 958px;
+	height:auto;
+	min-height: ;
+	padding: 10px 150px;
+	margin:0 auto;
+	float:center;
+	text-align: left;
+}
+
+#geral #centro h1{
+	font-size:22px;
+	margin: 10px 0;
+	text-align:center;
+    background:#76C2AF;				
+}
+
+
+#geral #centro .quemsomos {
+	width:250px;
+	margin:45px 55px 20px 10px;
+	float:left;
+}
+
+#geral #centro p{
+	margin: 15px 10px;
+	font-size:12px;
+}
+
+
+#geral #centro .box{
+	width:810px;
+	height:145px;
+	/*border:solid 1px;*/
+	margin:15px 0 10px 50px;
+	padding: 10px 10px 10px 10px;
+	text-align:center;
+	font-size:20px;			  
+}
+
+#geral #centro input, textarea, select{
+	margin: 10px 0;
+}
+
+#geral #centro #dados input{
+	width: 40%;
+}
+
+#geral #rodape{
+	height:80px;
+	background:#76C2AF;
+	clear:both;
+	text-align:right;
+	font-family:Arial;		 
+}
+
+#geral #rodape img {
+	width:65px;
+	float:left;
+	padding: 10px;
+}
+
+#geral #rodape #texto{
+	padding: 20px;
+	text-align: center;
+}
+
+#geral #suporte{
+	margin: 25px 0 0 0;
+	font-size:14px;
+	text-align: left;
+}
+
+#geral #centro form{
+	padding-left: 25px;
+}
