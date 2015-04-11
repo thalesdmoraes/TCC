@@ -1,0 +1,173 @@
+﻿html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
+	margin:0;
+	padding:0; 
+	border:none; 
+	outline:none;
+	text-decoration: none;
+	list-style-type:none;
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: url(fonts/Inconsolata.otf);
+}
+
+body{
+	font-family:Inconsolata, Arial, serif;
+	color:#000;
+	background:#76C2AF;
+	font-size:14px;
+}
+
+#geral{
+	text-align:center;
+	height:	auto;
+	margin:0 auto;
+	background:#fff;
+}
+
+#geral #topo{
+	min-height:120px;
+	background-image:url(img/site/backgroundtopo.png);				
+}
+
+#geral div{
+	min-width: 800px;
+}
+
+#geral #topo p{
+	color:#fff;
+	display:inline;
+	position:none;
+	margin-right:15%;
+	font-weight:800;
+	font-size:18px;
+}
+
+#geral  #topo a img{
+	height:100px;
+	margin:15px 0 0 15%;
+	float:left;
+	position:relative;
+	display:inline;
+}
+
+#geral #topo #texto{
+	float:right;
+	text-align:right;
+	margin:35px 15% 0 0;
+	display:inline;
+	position:relative;
+}
+
+#geral #menu{
+	background:#76C2AF;
+}
+
+#geral #menu ul{
+	list-style:none;	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#geral #menu ul li{
+	display:inline;
+}
+
+#geral #menu ul li a{
+	padding:15px 30px;
+	font-size:18px;
+	position:center;
+	color:#FFF;
+}
+
+#geral #menu ul li a:hover{
+	background:#FFF;
+	color:#76C2AF;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#geral #centro{
+	width:100%;
+	max-width:958px;
+	height:auto;
+	margin:0 auto;
+	float:center;
+	text-align:left;
+}
+
+#geral #centro h1{
+	font-size:20px;
+	color:#FFF;
+	margin:10px 0;
+	text-align:center;
+    background:#76C2AF;	
+}
+
+
+#geral #centro .quemsomos {
+	width:250px;
+	margin:45px 55px 20px 10px;
+	float:left;
+}
+
+#geral #centro p{
+	margin:15px 10px;
+	font-size:14px;
+}
+
+#geral #centro .box{
+	width:auto;
+	height:auto;
+	margin:15px auto;
+	padding:10px;
+	text-align:center;
+	font-size:20px;			  
+}
+
+#centro img{
+	margin:10px;
+}
+
+#geral #centro input, textarea, select{
+	margin:10px 0;
+}
+
+#geral #centro #dados input{
+	width:40%;
+}
+
+#geral #rodape{
+	background:#76C2AF;
+	clear:both;
+	height:80px;
+	text-align:right;
+}
+
+#geral #rodape img {
+	width:65px;
+	float:left;
+	margin-left:15%;
+	padding:10px;
+}
+
+#geral #rodape #texto{
+	padding:20px;
+	margin-right:15%;
+	text-align:right;
+	float:right;
+	position:relative;
+	display:inline;
+	color:#FFF;
+}
+
+#geral #suporte{
+	margin:25px 0 0 0;
+	font-size:14px;
+	text-align:left;
+}
+
+#geral #centro form{
+	padding-left:25px;
+}
